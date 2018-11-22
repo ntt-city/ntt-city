@@ -21,6 +21,7 @@ ntt-hub hosted at https://ntt.city implemented using GraphQL, Apollo Client, Nod
   - [VSCode inegration](https://marketplace.visualstudio.com/items?itemName=apollographql.vscode-apollo)
   - Clone tutorial
     ```git clone https://github.com/apollographql/fullstack-tutorial/```
+* Host at [RedHat OpenShift](https://manage.openshift.com/account/index)
 * Replace pug with React
 * Remove SASS
 
