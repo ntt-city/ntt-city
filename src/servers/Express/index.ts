@@ -18,6 +18,7 @@ import * as homeController from './controllers/home';
 import * as userController from './controllers/user';
 import * as apiController from './controllers/api';
 import * as contactController from './controllers/contact';
+import Cors from 'cors';
 
 export const start = () => {
     // Create Express server
@@ -32,6 +33,7 @@ export const start = () => {
     app.use(bodyParser.urlencoded({ extended: true }));
     app.use(expressValidator());
 
+    app.use(Cors());
     app.use(startMongoDB());
 
     app.use(passport.initialize());

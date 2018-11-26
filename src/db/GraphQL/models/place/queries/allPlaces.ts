@@ -2,6 +2,8 @@ import { GraphQLList } from 'graphql';
 import { PlaceModel } from '../PlaceModel';
 import { PlaceSchema } from '../Place.schema';
 
+// https://blog.couchbase.com/graphql-server-node-couchbase-ottoman-spatial-view/
+
 export const allPlaces = {
 
     type: new GraphQLList(PlaceSchema),

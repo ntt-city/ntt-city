@@ -16,3 +16,5 @@
 // Migration:
 // from PostgreSQL: https://blog.couchbase.com/moving-sql-database-content-to-couchbase/
 // from MongoDB: https://blog.couchbase.com/moving-from-mongodb-to-couchbase-server/
+
+export * from './bootstrap';
