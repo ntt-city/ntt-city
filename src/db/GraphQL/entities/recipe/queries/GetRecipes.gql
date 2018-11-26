@@ -1,0 +1,12 @@
+query GetRecipes {
+  recipes {
+    id
+    title
+    author {
+      email
+    }
+    ratings {
+      value
+    }
+  }
+}

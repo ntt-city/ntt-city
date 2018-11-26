@@ -1,0 +1,13 @@
+mutation AddRecipe {
+  addRecipe(recipe: {
+    title: "New Recipe"
+  }) {
+    id
+    ratings {
+      value
+    }
+    author {
+      nickname
+    }
+  }
+}

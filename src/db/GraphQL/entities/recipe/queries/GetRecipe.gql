@@ -1,0 +1,18 @@
+query GetRecipe {
+  recipe(recipeId: 1) {
+    id
+    title
+    ratings {
+      value
+      user {
+        nickname
+      }
+      date
+    }
+    author {
+      id
+      nickname
+      email
+    }
+  }
+}

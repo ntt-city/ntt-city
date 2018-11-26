@@ -1,0 +1,14 @@
+mutation RateRecipe {
+  rate(rate: {
+    recipeId: 3
+    value: 4
+  }) {
+    id
+    ratings {
+      value
+      user {
+        email
+      }
+    }
+  }
+}

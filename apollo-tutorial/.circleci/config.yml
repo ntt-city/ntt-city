@@ -27,7 +27,7 @@ jobs:
 
       - run:
           name: Starting server
-          command: cd final/server && npm run start:ci
+          command: cd final/server && npm run index:ci
           background: true
 
       - run: sleep 5
